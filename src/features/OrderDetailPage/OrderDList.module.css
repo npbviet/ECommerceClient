@@ -1,0 +1,28 @@
+.orderDList {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+.orderDTable {
+  text-align: center;
+}
+.orderDTable thead {
+  background-color: rgb(245, 245, 247);
+  color: rgb(56, 56, 56);
+}
+.orderDTable th {
+  padding: 0.75rem;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+.orderDTable td {
+  padding: 1rem 2rem;
+  font-size: 15px;
+  color: rgb(56, 56, 56);
+  font-weight: bold;
+}
+.orderDItem img {
+  width: 18rem;
+}

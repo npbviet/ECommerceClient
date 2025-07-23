@@ -1,0 +1,28 @@
+.flexPopup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexPopup img {
+  width: 30rem;
+  height: 100%;
+}
+.containerPopup {
+  padding: 0 2rem;
+}
+.flexPopup h2 {
+  margin: 1rem 0 0 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #495057;
+}
+.flexPopup p {
+  margin: 1rem 0;
+}
+.buttonX {
+  align-self: start;
+  cursor: pointer;
+}
+.icon {
+  margin-right: 1rem;
+}

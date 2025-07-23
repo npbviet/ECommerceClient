@@ -1,0 +1,31 @@
+.billingDetail {
+  display: flex;
+  justify-content: space-between;
+}
+.billingForm {
+  width: 50rem;
+}
+.billingForm label {
+  font-size: 18px;
+  color: rgb(56, 56, 56);
+}
+.billingForm input {
+  width: 90%;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #bdbdbd;
+  font-size: 16px;
+  margin: 1rem 0;
+  color: rgb(56, 56, 56);
+}
+.billingForm input::placeholder {
+  color: #bdbdbd;
+}
+.billingButton {
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.billingButton:hover {
+  transform: none;
+}

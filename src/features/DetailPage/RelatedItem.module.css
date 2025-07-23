@@ -1,0 +1,22 @@
+/* .relatedItems {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+} */
+.relatedItems img {
+  width: 100%;
+}
+.relatedItems {
+  text-align: center;
+  cursor: pointer;
+}
+
+.relatedItems h1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+}
+.relatedItems h2 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}

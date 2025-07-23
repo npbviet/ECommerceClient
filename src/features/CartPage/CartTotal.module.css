@@ -1,0 +1,37 @@
+.cartTotal {
+  margin: 0 1rem;
+}
+.cartTotal h2 {
+  margin: 0;
+  font-weight: 500;
+}
+.subTotal,
+.totalMoney {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 1rem 0;
+}
+.subPrice {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ccc;
+  width: 100%;
+}
+.couponInput input {
+  width: 88%;
+  height: 2rem;
+  padding: 0.25rem 1rem;
+  font-size: 18px;
+}
+.couponButton {
+  width: 100%;
+}
+.couponButton:hover {
+  transform: none;
+}

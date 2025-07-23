@@ -1,0 +1,28 @@
+.itemsShop img {
+  width: 100%;
+}
+.itemsShop {
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.itemsShop h1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.itemsShop img {
+  animation: fadeIn 2s ease-in-out forwards;
+}

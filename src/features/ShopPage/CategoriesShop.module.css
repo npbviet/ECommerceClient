@@ -1,0 +1,34 @@
+.categories {
+  margin-bottom: 2rem;
+}
+.categories h1 {
+  margin-bottom: 1.5rem;
+}
+.titleCategories1 {
+  background-color: rgb(56, 56, 56);
+  color: aliceblue;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem 0;
+}
+.titleCategories {
+  background-color: #f8f9fa;
+  color: rgb(56, 56, 56);
+  padding: 0.5rem 1.5rem;
+  margin: 1rem 0;
+}
+.categories ul {
+  display: grid;
+  gap: 1rem;
+  padding-left: 1.5rem;
+  list-style: none;
+}
+.nameCategories {
+  color: #bdbdbd;
+}
+.nameCategories:hover,
+.nameCategories:active {
+  color: #ff9b51;
+}
+.active {
+  color: #ff9b51;
+}

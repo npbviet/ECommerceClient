@@ -1,0 +1,11 @@
+.rightArrowLink {
+  padding: 0.5rem;
+  border: 2px solid rgb(56, 56, 56);
+  color: rgb(56, 56, 56);
+}
+.rightArrowIcon {
+  padding-left: 0.5rem;
+}
+.rightArrowLink:hover {
+  cursor: pointer;
+}

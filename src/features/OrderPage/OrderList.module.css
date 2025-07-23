@@ -1,0 +1,27 @@
+.orderList {
+  display: flex;
+  justify-content: space-between;
+}
+.orderTable {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.orderTable thead {
+  background-color: rgb(245, 245, 247);
+  color: rgb(56, 56, 56);
+}
+.orderTable th {
+  padding: 0.75rem;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+.orderTable td {
+  padding: 1rem 1rem;
+  font-size: 14px;
+}
+
+.orderTable td:last-child {
+  width: 5rem;
+}

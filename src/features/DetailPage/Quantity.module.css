@@ -1,0 +1,38 @@
+.box_quantity {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  width: 80%;
+}
+.box_quantity .disabled {
+  color: #ccc;
+  pointer-events: none;
+}
+
+.box_quantity .disabled:hover {
+  color: #ccc;
+}
+.quantityGrid {
+  border: 2px solid #bdbdbd;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.grid_text {
+  padding-left: 1rem;
+}
+.grid_number {
+  color: #383838;
+}
+.grid_number span {
+  padding: 0 0.8rem;
+  font-size: 18px;
+  font-style: normal;
+}
+.iconQuantity:hover {
+  cursor: pointer;
+}
+.buttonAddCart:hover {
+  transform: none;
+}

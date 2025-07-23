@@ -1,0 +1,27 @@
+.footer {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 10%;
+}
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 3rem 0;
+  align-items: baseline;
+  font-style: italic;
+}
+.footer h1 {
+  margin: 0 0 1rem 0;
+}
+.footer h1 a {
+  font-size: 20px;
+  font-weight: 400;
+  color: aliceblue;
+}
+.footer li a {
+  margin: 1rem 0;
+  line-height: 0.75rem;
+  font-size: 16px;
+  color: #495057;
+}

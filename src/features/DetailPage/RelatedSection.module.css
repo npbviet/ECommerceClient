@@ -1,0 +1,9 @@
+.relatedSection {
+  margin: 5rem 0;
+}
+.relatedSection ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 0;
+}

@@ -1,0 +1,25 @@
+.pagination {
+  margin: 4rem 0;
+  text-align: right;
+  color: #383838;
+}
+.iconPagination {
+  margin: 0 1rem;
+}
+.iconPagination:hover {
+  transform: translate(0%, -20%);
+}
+.pagination .disabled {
+  color: #ccc;
+  pointer-events: none;
+}
+
+.currentPage {
+  padding: 0.5rem 1rem;
+  box-shadow: none;
+}
+.currentPage:hover {
+  transform: none;
+  box-shadow: none;
+  cursor: default;
+}

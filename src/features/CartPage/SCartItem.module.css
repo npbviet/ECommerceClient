@@ -1,0 +1,18 @@
+.iconQuantity {
+  margin: 0 0.75rem;
+}
+.iconQuantity:hover {
+  cursor: pointer;
+}
+.removeButton:hover {
+  cursor: pointer;
+}
+.disabled {
+  color: #ccc;
+}
+.disabled:hover {
+  cursor: default;
+}
+.nameProduct {
+  font-size: 15px !important;
+}

@@ -1,0 +1,145 @@
+/* Container for the live chat */
+.liveChat {
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  z-index: 9999;
+}
+
+/* Floating chat button */
+.chatButton {
+  background-color: rgb(56, 56, 56);
+  color: #fff;
+  padding: 0 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.chatButton:hover {
+  cursor: pointer;
+}
+
+/* Chat popup window */
+.chatPopup {
+  position: fixed;
+  top: 10vh;
+  right: 10vh;
+  width: 30rem;
+  height: 70vh;
+  background-color: #fff;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat header */
+.chatHeader {
+  color: rgb(56, 56, 56);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.chatAppButton {
+  background: #e4e6eb;
+  border: none;
+  color: rgb(56, 56, 56);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-style: italic;
+}
+
+.chatAppButton:hover {
+  background: rgb(56, 56, 56);
+  color: #bdbdbd;
+}
+
+/* Container */
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+/* Tin nhắn chung */
+.message {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  padding: 8px 12px;
+  border-radius: 0.25rem;
+  font-size: 14px;
+  position: relative;
+}
+/* Tin nhắn gửi */
+.message.sent {
+  align-self: flex-end !important;
+  background-color: #0078ff;
+  color: #fff;
+}
+
+/* Tin nhắn nhận */
+.message.received {
+  align-self: flex-start;
+  background-color: #f1f3f5;
+  color: #bdbdbd;
+}
+.messageAdmin {
+  display: flex;
+  gap: 0.5rem;
+}
+.messageUserIcon {
+  font-size: 18px;
+  padding-bottom: 0.75rem;
+}
+/* Nội dung tin nhắn */
+.messageText {
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+/* Chat footer */
+.chatFooter {
+  background-color: #f8f9fa;
+  color: rgb(56, 56, 56);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  border-top: 1px solid #bdbdbd;
+}
+.messageFooter {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.messageFooter input {
+  padding-left: 1rem;
+  border: none;
+  font-size: 16px;
+  flex-grow: 1;
+}
+.messagerIcon {
+  padding: 0.5rem 0.25rem;
+}
+.iconSend {
+  color: #0078ff;
+}

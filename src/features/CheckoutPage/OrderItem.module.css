@@ -1,0 +1,16 @@
+.orderItem {
+  font-size: 16px;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+.orderPrice {
+  color: #bdbdbd;
+  font-size: 14px;
+  /* margin-left: 1rem; */
+}
+.orderItemName {
+  font-size: 16px;
+}

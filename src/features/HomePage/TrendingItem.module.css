@@ -1,0 +1,14 @@
+.trendingItem img {
+  width: 100%;
+}
+.trendingItem {
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.trendingItem h1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+}

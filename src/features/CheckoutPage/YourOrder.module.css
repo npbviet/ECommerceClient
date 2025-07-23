@@ -1,0 +1,42 @@
+.yourOrder {
+  margin-left: 1rem;
+  background-color: rgb(245, 245, 247);
+  color: rgb(56, 56, 56);
+  padding: 2rem;
+  padding-bottom: 4rem;
+  width: 24rem;
+  height: 15rem;
+}
+.yourOrder h2 {
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+.totalMoney {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 1rem;
+}
+.subPrice {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ccc;
+  width: 100%;
+}
+.couponInput input {
+  width: 88%;
+  height: 2rem;
+  padding: 0.25rem 1rem;
+  font-size: 18px;
+}
+.couponButton {
+  width: 100%;
+}
+.couponButton:hover {
+  transform: none;
+}

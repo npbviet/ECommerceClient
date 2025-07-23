@@ -1,0 +1,34 @@
+.gridDetail {
+  display: grid;
+  grid-template-columns: 1fr 4fr 4fr;
+  gap: 2rem;
+}
+.gridDetail ul {
+  margin: 0;
+  list-style: none;
+}
+.detailItem img {
+  border-radius: 4px;
+  width: 100%;
+}
+.active {
+  opacity: 0.5;
+  border: red 2px solid;
+  position: relative;
+}
+
+.shortDesc h1 {
+  font-weight: bold;
+}
+.shortDesc h2 {
+  font-weight: 500;
+  font-size: 28px;
+  margin: 2rem 0;
+}
+.shortDesc_category {
+  color: rgb(56, 56, 56);
+  padding: 2rem 0;
+}
+.shortDesc_category span {
+  color: #bdbdbd;
+}

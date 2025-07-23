@@ -1,0 +1,36 @@
+.otherInformation {
+  margin: 0 10%;
+}
+.flexOtherInfo {
+  display: flex;
+  font-style: italic;
+  color: #bdbdbd;
+  font-weight: 500;
+  justify-content: space-around;
+  padding: 5rem;
+  background-color: #f8f9fa;
+}
+
+.otherInformation h1 {
+  margin: 0 0 0.5rem 0;
+  color: rgb(56, 56, 56);
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.gridOtherInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5rem 0;
+  justify-content: center;
+  align-items: center;
+}
+.inputOtherInfo {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.inputOtherInfo input {
+  height: 2rem;
+  font-size: 16px;
+  padding: 1rem;
+}

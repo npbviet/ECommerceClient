@@ -1,0 +1,13 @@
+.trending {
+  margin: 5rem 10%;
+}
+
+.titleTrending h1 {
+  margin-bottom: 2rem;
+}
+.trending ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  list-style: none;
+}
