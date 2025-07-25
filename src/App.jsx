@@ -26,7 +26,7 @@ import ErrorPage from "./Pages/ErrorPage";
 
 library.add(fab, fas, far);
 
-const route = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     // errorElement: <ErrorPage />,
