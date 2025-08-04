@@ -43,17 +43,15 @@ export async function submitAuthenDataAction({ request }) {
     }
 
     if (mode === "login") {
-      if (resData) {
-        alert("Đăng nhập thành công");
-        return { success: true, user: resData };
-      } else {
-        //loi cho naynay -> hietaijai login dung van vao dayday
-        console.log(resData.success, resData.user);
+      if (!response.ok || resData.isAuthError) {
         return {
           message: resData.message || "Thông tin đăng nhập không đúng.",
           clearPassword: true,
         };
       }
+
+      alert("Đăng nhập thành công");
+      return { success: true, user: resData };
     }
   } catch (err) {
     return { message: "Lỗi khi gửi dữ liệu đến server." };

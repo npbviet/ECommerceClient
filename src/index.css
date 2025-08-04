@@ -47,6 +47,9 @@ h1 {
   max-width: none;
   margin: 0;
 }
+button:hover {
+  cursor: pointer;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

@@ -58,21 +58,27 @@ const ItemShopList = (props) => {
         sort={handleSortChoice}
         sortChoice={sortChoice}
       />
-      <ul className={styles.itemList}>
-        {currentItems.map((item) => (
-          <div
-            key={`${item._id} + ${typeCategory}+${sortChoice}+${sortedItems}`}
-            className={styles.item}
-          >
-            <ShopItems item={item} />
-          </div>
-        ))}
-      </ul>
-      <Pagination
-        update={handleItemChange}
-        items={sortedItems}
-        currentItems={currentItems}
-      />
+      {sortedItems.length === 0 ? (
+        <p className={styles.noResult}>Không có sản phẩm nào phù hợp.</p>
+      ) : (
+        <div>
+          <ul className={styles.itemList}>
+            {currentItems.map((item) => (
+              <div
+                key={`${item._id} + ${typeCategory}+${sortChoice}+${sortedItems}`}
+                className={styles.item}
+              >
+                <ShopItems item={item} />
+              </div>
+            ))}
+          </ul>
+          <Pagination
+            update={handleItemChange}
+            items={sortedItems}
+            currentItems={currentItems}
+          />
+        </div>
+      )}
     </div>
   );
 };

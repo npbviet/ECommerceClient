@@ -31,14 +31,14 @@ const DetailPage = () => {
     if (!detailItem) return [];
     return data.filter(
       (item) =>
-        item.category === detailItem.category &&
-        item._id.$oid !== detailItem._id.$oid
+        item.category === detailItem.category && item._id !== detailItem._id
     );
   }, [detailItem, data]);
 
   if (!detailItem) {
     return <p>Item not found</p>;
   }
+
   return (
     <div className={styles.detailPage}>
       <DetailItem item={detailItem} />
